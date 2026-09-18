@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 528" width="100%" role="img">
+  <title>Multi-Agent Team Builder · Flow</title>
+  <desc>Trigger → decide need shape → assemble (pool first, create only if missing) → group discussion picks plan → team discussion decides implementation → execute and deliver.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .th{font-family:'Segoe UI',system-ui,sans-serif;font-size:14px;font-weight:500}
+      .ts{font-family:'Segoe UI',system-ui,sans-serif;font-size:12px;font-weight:400}
+    </style>
+  </defs>
+
+  <text class="th" x="40" y="26" fill="#2C2C2A">Multi-Agent Team Builder · Flow</text>
+
+  <rect x="240" y="44" width="200" height="44" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5"/>
+  <text class="th" x="340" y="66" text-anchor="middle" dominant-baseline="central" fill="#042C53">Trigger: multi-agent team</text>
+
+  <polyline points="340,88 340,114" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="200" y="116" width="280" height="56" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+  <text class="th" x="340" y="135" text-anchor="middle" dominant-baseline="central" fill="#26215C">Decide need shape (internal)</text>
+  <text class="ts" x="340" y="154" text-anchor="middle" dominant-baseline="central" fill="#534AB7">A personas / B SDK / C app / D enterprise</text>
+
+  <polyline points="340,172 340,198" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="200" y="200" width="280" height="56" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5"/>
+  <text class="th" x="340" y="219" text-anchor="middle" dominant-baseline="central" fill="#042C53">Assemble: pool first, create if missing</text>
+  <text class="ts" x="340" y="238" text-anchor="middle" dominant-baseline="central" fill="#185FA5">&gt;= 2 per domain · reuse first</text>
+
+  <polyline points="340,256 340,282" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="200" y="284" width="280" height="56" rx="8" fill="#EAF3DE" stroke="#639922" stroke-width="0.5"/>
+  <text class="th" x="340" y="303" text-anchor="middle" dominant-baseline="central" fill="#173404">① Group discussion</text>
+  <text class="ts" x="340" y="322" text-anchor="middle" dominant-baseline="central" fill="#3B6D11">which plan + why</text>
+
+  <polyline points="340,340 340,366" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="200" y="368" width="280" height="56" rx="8" fill="#EAF3DE" stroke="#639922" stroke-width="0.5"/>
+  <text class="th" x="340" y="387" text-anchor="middle" dominant-baseline="central" fill="#173404">② Team discussion</text>
+  <text class="ts" x="340" y="406" text-anchor="middle" dominant-baseline="central" fill="#3B6D11">how to implement</text>
+
+  <polyline points="340,424 340,450" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="200" y="452" width="280" height="56" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+  <text class="th" x="340" y="471" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">Execute / give a concrete example</text>
+  <text class="ts" x="340" y="490" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">with delivery notes + safety tips</text>
+</svg>

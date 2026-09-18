@@ -2,6 +2,8 @@
 
 In one line: **you say "build me a multi-agent team" and it picks experts from a role pool, groups them by domain, converges through "group discussion → team discussion", and hands you a runnable plan or a concrete example.**
 
+> 🌐 Chinese version（中文版）：https://github.com/zhangruilin158/multi-agent-team —— the same skill, written in Chinese.
+
 ## Full-flow diagram
 
 ```mermaid
